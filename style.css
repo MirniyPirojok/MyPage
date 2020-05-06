@@ -23,15 +23,15 @@ body {
 
 header {
     background: url(img/background_header/background_header1.jpg);
-	background-color: #222;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-		 -o-background-size: cover;
-			background-size: cover;
-	padding: 0; 
+    background-color: #222;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
 }
 
 
@@ -104,6 +104,7 @@ h1 {
 .card {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
     margin: 2%;
+    display: inline-block;
     padding: 1% 1% 1%;
     width: 300px;
     height: 400px;

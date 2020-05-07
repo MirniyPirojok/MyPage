@@ -51,8 +51,7 @@ header {
     font-family: 'Inter', sans-serif;
     color: white;
     font-size: 60px;
-    margin-top: 20%;
-    padding-bottom: 10%;
+    margin: 20% 1%;    
 }
 
 h1 {
@@ -71,19 +70,19 @@ h1 {
 
 .card {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
-    margin: 2% 5%;
+    margin: 2%;
     display: inline-block;
-    padding: 1% 1% 1%;
-    width: 400px;
-    height: 500px;
+    padding: 1% 1%;
+    width: 500px;
+    height: 600px;
 }
 
 .card:hover {
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.6);
-    margin: 2% 5%;
-    padding: 1% 1% 1%;
-    width: 400px;
-    height: 500px;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.7);
+    margin: 2%;
+    padding: 1% 1%;
+    width: 500px;
+    height: 600px;
 }
 
 .card-image {
@@ -92,7 +91,7 @@ h1 {
 }
 
 .card-title {
-    font-size: 22px;
+    font-size: 26px;
     text-align: center;
     font-weight: 600;
     margin-top: 3%;
@@ -128,12 +127,12 @@ h1 {
     border: 2px solid black;
     background-image:url(img/icons/icon_download.png); 
     background-size: cover;    
-    width:50px; 
-    height:50px; 
+    width:70px; 
+    height:70px; 
     display:inline-block;
     margin: 10% 43%;      
 }
 
 .i:hover {
-    border: 3px solid black;   
+    border: 4px solid black;   
 }

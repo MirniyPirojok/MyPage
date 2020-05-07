@@ -5,11 +5,10 @@ h3,
 h4,
 p,
 a {
-    font-family: 'Inter', sans-serif;
-    font-weight: normal;
+    font-family: 'Inter', sans-serif;    
     margin: 0;
-    text-decoration: none;
     color: black;
+    text-decoration-line: none;
 }
 
 body {
@@ -52,7 +51,7 @@ header {
     text-shadow: 5px -5px 10px black;
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     margin-top: 20%;
 }
 
@@ -75,16 +74,16 @@ h1 {
     margin: 2%;
     display: inline-block;
     padding: 1% 1% 1%;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
 }
 
 .card:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.6);
     margin: 2%;
     padding: 1% 1% 1%;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
 }
 
 .card-image {
@@ -93,20 +92,22 @@ h1 {
 }
 
 .card-title {
+     font-size: 22px;
     text-align: center;
     font-weight: 600;
-    margin-top: 1%;
+    margin-top: 3%;
     color: black;
 }
 
-.ref_geekbrains {
-    padding-top: 5%;
+.ref_geekbrains {    
+    border: 1px solid black;
+    font-size: 22px;
+    margin-top: 4%;
     text-align: center;
 }
 
 .ref:hover {
-    font-size: 18px;
-    text-decoration-line: underline;
+    font-size: 26px;    
 }
 
 .engCertificate {

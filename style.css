@@ -51,7 +51,7 @@ header {
     font-family: 'Inter', sans-serif;
     color: white;
     font-size: 60px;
-    margin: 20% 1%;    
+    margin: 15% 1%;    
 }
 
 h1 {
@@ -73,16 +73,16 @@ h1 {
     margin: 2%;
     display: inline-block;
     padding: 1% 1%;
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
 }
 
 .card:hover {
     box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.7);
     margin: 2%;
     padding: 1% 1%;
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
 }
 
 .card-image {

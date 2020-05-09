@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Page by Yaroslav</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -35,7 +35,16 @@
             </div>
 
             <div class="card">
-                <img class="card-image engCertificate" src="img/Certificates/EnglishExamCertificate.jpg">
+                <img id="btn_modal_window" class="card-image engCertificate" src="img/Certificates/EnglishExamCertificate.jpg">
+
+                <div id="my_modal" class="modal">
+                    <div class="modal_content">
+                        <span class="close_modal_window">×</span>
+                        <img class="window-engCertificate" src="img/Certificates/EnglishExamCertificate.jpg">
+                    </div>
+                </div>
+
+
                 <h3 class='card-title'> Английский язык <br> уровень B1+</h3>
             </div>
 
@@ -44,13 +53,13 @@
                 <h3 class="card-title">Резюме</h3>
                 <a href="files/YaroslavBorisov_CV.pdf" download>
                     <span class="i"></span>
-                    
+
                 </a>
             </div>
         </section>
-        
-    </main>
-    <script src="script.js"></script>
-</body>
 
+    </main>
+    <script src="script/script.js"></script>
+    <script src="script/modal_win_script.js"></script>
+</body>
 </html>

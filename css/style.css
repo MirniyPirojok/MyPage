@@ -1,3 +1,5 @@
+@import url(modal_win_style.css);
+
 body,
 h1,
 h2,
@@ -21,7 +23,7 @@ body {
 }
 
 header {
-    background: url(img/background_header/background_header1.jpg);
+    background: url(../img/background_header/background_header1.jpg);
     background-color: #222;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -35,7 +37,7 @@ header {
 
 #glass {
     background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("img/background_header/black_overlay.jpg");
+    background-image: url("../img/background_header/black_overlay.jpg");
     background-repeat: repeat;
     height: 100vh;
     left: 0;
@@ -110,10 +112,11 @@ h1 {
     font-size: 23px;
 }
 
+
 .engCertificate:hover {
     cursor: pointer
 }
-
+/*
 .engCertificate:active {
     transform: scale(2);
     transition: 1s;
@@ -122,10 +125,10 @@ h1 {
     width: 70%;
     height: 70%;
 }
-
+*/
 .i {
     border: 2px solid black;
-    background-image:url(img/icons/icon_download.png); 
+    background-image:url(../img/icons/icon_download.png); 
     background-size: cover;    
     width:60px; 
     height:60px; 

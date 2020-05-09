@@ -101,7 +101,7 @@ h1 {
 .ref {
     border: 1px solid black;
     font-size: 22px;
-    margin-top: 4%;
+    margin-top: 3%;
     text-align: center;
     padding: 4px;
 }
@@ -130,7 +130,7 @@ h1 {
     width:70px; 
     height:70px; 
     display:inline-block;
-    margin: 10% 43%;      
+    margin: 10% 40%;      
 }
 
 .i:hover {

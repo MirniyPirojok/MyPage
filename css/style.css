@@ -105,9 +105,9 @@ h2 {
     border: 1px solid black;
     border-radius: 5%;
     font-size: 14px;
-    margin-top: 2%;
+    margin-top: 1%;
     text-align: center;
-    padding: 4px;
+    padding: 2px;
 }
 
 .ref:hover {
@@ -127,7 +127,7 @@ h2 {
     width: 45px;
     height: 45px;
     display: inline-block;
-    margin: 10% 40%;
+    margin: 5% 40%;
 }
 
 .i:hover {

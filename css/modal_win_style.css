@@ -9,6 +9,7 @@
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 1000;
+    
 }
 
 .modal .modal_content {
@@ -16,19 +17,17 @@
     margin: 1% auto;
     padding: 16px;
     border: 1px solid #888;
-    width: 550px;
+    width: 65vh;   
     z-index: 99999;
 }
 
 .modal .modal_content .close_modal_window {
     color: #aaa;
     float: right;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 28px;    
     cursor: pointer;
 }
 
-.window-engCertificate {
-    height: 100%;
-    width: 85%;
+.window-engCertificate {   
+    width: 100%;
 }

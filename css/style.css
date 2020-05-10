@@ -76,7 +76,7 @@ h2 {
     display: inline-block;
     padding: 1% 1%;
     width: 250px;
-    height: 350px;
+    height: 300px;
 }
 
 .card:hover {
@@ -85,7 +85,7 @@ h2 {
     display: inline-block;
     padding: 1% 1%;
     width: 250px;
-    height: 350px;
+    height: 300px;
 }
 
 .card-image {
@@ -94,17 +94,17 @@ h2 {
 }
 
 .card-title {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     font-weight: 600;
-    margin-top: 2%;
+    margin-top: 1%;
     color: black;
 }
 
 .ref {
     border: 1px solid black;
     border-radius: 5%;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 2%;
     text-align: center;
     padding: 4px;
@@ -124,8 +124,8 @@ h2 {
     border: 2px solid black;
     background-image: url(../img/icons/icon_download.png);
     background-size: cover;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     display: inline-block;
     margin: 10% 40%;
 }
